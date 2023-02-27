@@ -9,13 +9,22 @@
 }
 .debug{
     border: 1px solid green;
+    background-color: red;
+}
+.c92-hero{
+    width: 100%;
+}
+.c92-hero img{
+    width: 50%;
 }
 
 .c92-img{
     width: 100%;
 }
 .c92-img img{
-    width: 50%;
+    width: 100%;
+    border-radius: 10px;
+
 }
 header{
     background-color: var(--c92-dark-gray);
@@ -24,6 +33,6 @@ header{
     background-color: var(--c92-aqua);
     color: var(--c92-white);
 }
-.c92-top-footer{
+footer{
     background-color: var(--c92-light-gray);
 }
