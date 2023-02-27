@@ -17,7 +17,6 @@
 .c92-hero img{
     width: 50%;
 }
-
 .c92-img{
     width: 100%;
 }
@@ -25,6 +24,11 @@
     width: 100%;
     border-radius: 10px;
 
+}
+.c92-line{
+    width: 20px;
+    height: 20px;
+    background-color: var(--c92-white);
 }
 header{
     background-color: var(--c92-dark-gray);
@@ -34,5 +38,8 @@ header{
     color: var(--c92-white);
 }
 footer{
+    background-color: var(--c92-dark-gray);
+}
+.c92-bot-footer{
     background-color: var(--c92-light-gray);
 }
