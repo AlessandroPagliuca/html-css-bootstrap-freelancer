@@ -20,8 +20,7 @@
 header, footer{
     background-color: var(--c92-dark-gray);
 }
-#hero{
+#hero, #about{
     background-color: var(--c92-aqua);
     color: var(--c92-white);
-
 }
