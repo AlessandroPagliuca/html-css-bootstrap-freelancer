@@ -15,7 +15,7 @@
     width: 100%;
 }
 .c92-hero img{
-    width: 50%;
+    width: 30%;
 }
 .c92-img{
     width: 100%;
@@ -32,6 +32,16 @@
 }
 header{
     background-color: var(--c92-dark-gray);
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    
+}
+main{
+    margin-top:70px;
 }
 #hero, #about{
     background-color: var(--c92-aqua);
@@ -41,5 +51,6 @@ footer{
     background-color: var(--c92-dark-gray);
 }
 .c92-bot-footer{
+    padding: 20px 0;
     background-color: var(--c92-light-gray);
 }
