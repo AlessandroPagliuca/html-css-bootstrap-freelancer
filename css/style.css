@@ -1,0 +1,27 @@
+:root{
+    /* Color styles */
+--c92-dark-gray: #2C3E50;
+--c92-aqua: #1ABC9C;
+--c92-white: #FFFFFF;
+--c92-light-gray: #3A546D;
+--c92-black: #333333;
+
+}
+.debug{
+    border: 1px solid green;
+}
+
+.c92-img{
+    width: 100%;
+}
+.c92-img img{
+    width: 25%;
+}
+header, footer{
+    background-color: var(--c92-dark-gray);
+}
+#hero{
+    background-color: var(--c92-aqua);
+    color: var(--c92-white);
+
+}
