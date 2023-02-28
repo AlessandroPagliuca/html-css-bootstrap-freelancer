@@ -71,6 +71,10 @@ footer{
     padding: 20px 0;
     background-color: var(--c92-light-gray);
 }
+.c92-footer-link{
+    text-decoration: none;
+    color: var(--c92-aqua);
+}
 .star{
     width: 50%;
 }
