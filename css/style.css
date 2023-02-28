@@ -78,3 +78,12 @@ footer{
 #contact .star::after{
     background-color: var(--c92-black);
 }
+.c92-btn{
+    background-color: var(--c92-aqua);
+    border-radius: 5px;
+        transition: all .6s ease-out;
+
+}
+.c92-btn:hover{
+    opacity: 0.7;
+}
