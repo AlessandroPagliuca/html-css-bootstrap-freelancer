@@ -11,11 +11,8 @@
     border: 1px solid green;
     background-color: red;
 }
-.c92-hero{
-    width: 100%;
-}
 .c92-hero img{
-    width: 30%;
+    max-width: 250px;
 }
 .c92-img{
     width: 100%;
@@ -38,15 +35,15 @@
 header{
     background-color: var(--c92-dark-gray);
     width: 100%;
-    height: auto;
+    min-height: 70px;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
     
 }
-main{
-    margin-top:70px;
+#hero, #portfolio, #about, #contact{
+    padding-top:70px;
 }
 #hero, #about{
     background-color: var(--c92-aqua);
@@ -58,4 +55,20 @@ footer{
 .c92-bot-footer{
     padding: 20px 0;
     background-color: var(--c92-light-gray);
+}
+.star{
+    width: 50%;
+}
+.star i{
+    width: 20%;
+    display: block;
+}
+.star::after,
+.star::before{
+    content: '';
+    display: block;
+    width: 40%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--c92-white);
 }
