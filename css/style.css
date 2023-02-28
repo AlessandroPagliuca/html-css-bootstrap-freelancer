@@ -72,3 +72,9 @@ footer{
     border-radius: 2px;
     background-color: var(--c92-white);
 }
+#portfolio .star::before,
+#portfolio .star::after,
+#contact .star::before,
+#contact .star::after{
+    background-color: var(--c92-black);
+}
