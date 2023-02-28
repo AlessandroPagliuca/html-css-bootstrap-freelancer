@@ -37,12 +37,15 @@
 }
 
 .c92-img:hover:after{
-    opacity: .6;
+    opacity: .8;
 }
 .c92-line{
     width: 20px;
     height: 20px;
     background-color: var(--c92-white);
+}
+.nav-link.active:hover{
+    color: var(--c92-aqua);
 }
 header{
     background-color: var(--c92-dark-gray);
