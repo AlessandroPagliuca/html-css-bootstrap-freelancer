@@ -44,8 +44,8 @@
     height: 20px;
     background-color: var(--c92-white);
 }
-.nav-link.active:hover{
-    color: var(--c92-aqua);
+.c92-green:hover{
+    background-color: var(--c92-aqua);
 }
 header{
     background-color: var(--c92-dark-gray);
